@@ -1,0 +1,52 @@
+import java.util. *;
+
+ class Main {
+  public static void main(String[] args) {
+
+ //Scanner in = new  Scanner(System.in);
+
+ int segundos = 110;
+ int minutos = 50;   
+ int divisao = 0;
+
+  divisao = segundos/minutos;
+    System.out.println(divisao);
+// este programa converte um valor de segundos em minutos e horas
+    
+//if ( horas > 0 )  segundos = segundos-60;
+//if ( horas>=60)horas = horas+1;
+//if ( horas >0) segundos=segundos-60;
+
+ System.out.println("aula+n4");
+String exercicio3 = "aula+n4";
+String regra2    = "aula+n4";
+String resposta7 = "aula+n4";
+    System.out.println(exercicio3+regra2+resposta7);
+
+float nota1 = 6;
+float nota2 = 8;
+float nota3 = 9;
+float media = (nota1 + nota2 + nota3) / 2;
+    System.out.println(media);
+float menor = 11;
+    float maior = 0;
+if (nota1>maior && nota1>nota2) {
+   System.out.println("nota1 e maior");
+}else{
+   System.out.println("nota1 e menor");
+}
+if (nota2<menor && nota2<nota1) {
+   System.out.println("nota2 e menor");
+}else{
+   System.out.println("nota2 e maior");
+}
+if (nota3<maior && nota1<nota3 ) {
+   System.out.println("nota3 e menor");
+}else{
+   System.out.print("nota3 e maior"); 
+  }
+} 
+ }
+ 
+    
+  
